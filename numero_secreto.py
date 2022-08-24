@@ -50,6 +50,7 @@ def jogar():
                 print("\nVocê errou, o número secreto é maior que", chute, "tente novamente...")
 
     print("Fim de jogo.")
+    input("\naperte qualquer tecla para continuar")
 
 if(__name__ == "__main__"):
     jogar()
